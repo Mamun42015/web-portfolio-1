@@ -1,6 +1,6 @@
 
 
-.open-sans  {
+.open-sans-normal {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -8,5 +8,38 @@
     "wdth" 100;
 }
 
-nav {display:flex}
-.u {color: coral;}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px;
+  }
+.u {
+  color: coral;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul li {
+  list-style:none;
+  margin-right: 50px;
+}
+ nav ul li a{
+  text-decoration: none;
+} 
+.dark-2{
+  color: #474747;
+  text-decoration:;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+.btn-primary{
+  background-color:#fd6e0a;
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 10px;
+}
